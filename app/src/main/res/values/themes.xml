@@ -1,0 +1,23 @@
+<resources>
+    <style name="Theme.MediumArticleApp" parent="@style/Theme.Leanback" >
+        <item name="colorAccent">#5F90A5</item>
+        <item name="defaultBrandColor">#5F90A5</item>
+        <item name="defaultBrandColorDark">#768087</item>
+        <item name="defaultSearchColor">@color/search_opaque</item>
+        <item name="headersVerticalGridStyle">@style/HeadersVerticalGridView</item>
+        <item name="defaultSectionHeaderColor">#BAC6E4</item>
+        <item name="baseCardViewStyle">@style/BaseCardViewStyle</item>
+    </style>
+
+    <style name="HeadersVerticalGridView" parent="Widget.Leanback.Headers.VerticalGridView">
+        <item name="android:background">@drawable/home_headers_background</item>
+        <item name="android:paddingStart">15dp</item>
+        <item name="android:verticalSpacing">@dimen/lb_browse_headers_vertical_spacing</item>
+    </style>
+
+    <style name="BaseCardViewStyle" parent="Widget.Leanback.BaseCardViewStyle">
+        <item name="cardBackground">@android:color/transparent</item>
+        <item name="cardForeground">@android:color/transparent</item>
+        <item name="infoAreaBackground">@android:color/transparent</item>
+    </style>
+</resources>

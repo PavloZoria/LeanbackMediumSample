@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="browse_header_icon_size">20dp</dimen>
+    <dimen name="vertical_grid_items_vertical_spacing">20dp</dimen>
+</resources>
